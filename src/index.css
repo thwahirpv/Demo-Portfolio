@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+  background: #000;
+}
+
+h1, h4, p, a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgba(248, 217, 17);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  color: white;
+}
+.btn:hover{
+  background: rgba(97, 95, 95, 0.586);
+  color: #fff;
+  transition: 0.3s;
+}
+.btn-light:hover{
+  background: rgba(97, 95, 95, 0.586);
+}
